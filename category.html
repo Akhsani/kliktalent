@@ -2,7 +2,8 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title></title>
+        <title>Kliktalent - Talent Marketplace</title>
+        <link rel="icon" type="image/ico" href="favicon.ico">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
         <link href="css/stack-interface.css" rel="stylesheet" type="text/css" media="all">
@@ -10,6 +11,7 @@
         <link href="css/iconsmind.css" rel="stylesheet" type="text/css" media="all" />
         <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
         <link href="css/flickity.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/lightbox.min.css" rel="stylesheet" type="text/css" >
         <link href="css/jquery.steps.css" rel="stylesheet" type="text/css" media="all" />
         <link href="css/theme.css" rel="stylesheet" type="text/css" media="all" />
         <link href="css/custom.css" rel="stylesheet" type="text/css" media="all" />
@@ -39,7 +41,7 @@
                 <!--end of container-->
             </div>
             <!--end bar-->
-            <nav id="menu1" class="bar bar--sm bar-1 hidden-xs">
+            <nav id="menu1" class="bar bar--sm bar-1 hidden-xs bar--absolute bar--transparent" data-scroll-class="100px:pos-fixed">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-1 col-sm-2 hidden-xs">
@@ -76,7 +78,6 @@
                                                                         </a>
                                                                     </div>
                                                                 </div>
-                                                                <!--end of row-->
                                                             </div>
                                                         </div>
                                                         <div class="col-md-3 col-md-offset-6 col-sm-4">
@@ -85,47 +86,47 @@
                                                                     <span class="color--dark"><strong>Explore by Category</strong></span>
                                                                 </li>
                                                                 <li>
-                                                                    <a href="elements-accordions.html">
+                                                                    <a href="category.html">
                                                                         Band
                                                                     </a>
                                                                 </li>
                                                                 <li>
-                                                                    <a href="elements-alerts.html">
+                                                                    <a href="category.html">
                                                                         DJ
                                                                     </a>
                                                                 </li>
                                                                 <li>
-                                                                    <a href="elements-boxes.html">
+                                                                    <a href="category.html">
                                                                         MC
                                                                     </a>
                                                                 </li>
                                                                 <li>
-                                                                    <a href="elements-buttons.html">
+                                                                    <a href="category.html">
                                                                         Stand Up Comedy
                                                                     </a>
                                                                 </li>
                                                                 <li>
-                                                                    <a href="elements-colors.html">
+                                                                    <a href="ecategory.html">
                                                                         Singer
                                                                     </a>
                                                                 </li>
                                                                 <li>
-                                                                    <a href="elements-countdown.html">
+                                                                    <a href="category.html">
                                                                         Musician
                                                                     </a>
                                                                 </li>
                                                                 <li>
-                                                                    <a href="elements-dropdowns.html">
+                                                                    <a href="category.html">
                                                                         Magician
                                                                     </a>
                                                                 </li>
                                                                 <li>
-                                                                    <a href="elements-form-elements.html">
+                                                                    <a href="category.html">
                                                                         Dancer
                                                                     </a>
                                                                 </li>
                                                                 <li>
-                                                                    <a href="elements-gradient-backgrounds.html">
+                                                                    <a href="category.html">
                                                                         Model
                                                                     </a>
                                                                 </li>
@@ -137,47 +138,47 @@
                                                                     <span class="color--dark"><strong>Explore by Event</strong></span>
                                                                 </li>
                                                                 <li>
-                                                                    <a href="elements-lightbox.html">
+                                                                    <a href="category.html">
                                                                         Corporate
                                                                     </a>
                                                                 </li>
                                                                 <li>
-                                                                    <a href="elements-maps.html">
+                                                                    <a href="category.html">
                                                                         Private Party
                                                                     </a>
                                                                 </li>
                                                                 <li>
-                                                                    <a href="elements-masonry.html">
+                                                                    <a href="category.html">
                                                                         Festival
                                                                     </a>
                                                                 </li>
                                                                 <li>
-                                                                    <a href="elements-modals.html">
+                                                                    <a href="category.html">
                                                                         Campus
                                                                     </a>
                                                                 </li>
                                                                 <li>
-                                                                    <a href="elements-navigation.html">
+                                                                    <a href="category.html">
                                                                         School
                                                                     </a>
                                                                 </li>
                                                                 <li>
-                                                                    <a href="elements-navigation-inpage.html">
+                                                                    <a href="category.html">
                                                                         Social
                                                                     </a>
                                                                 </li>
                                                                 <li>
-                                                                    <a href="elements-navigation-sidebar.html">
+                                                                    <a href="category.html">
                                                                         Weddings
                                                                     </a>
                                                                 </li>
                                                                 <li>
-                                                                    <a href="elements-notifications.html">
+                                                                    <a href="category.html">
                                                                         Cafe/Restaurant/Pub
                                                                     </a>
                                                                 </li>
                                                                 <li>
-                                                                    <a href="elements-parallax.html">
+                                                                    <a href="category.html">
                                                                         Club
                                                                     </a>
                                                                 </li>
@@ -194,16 +195,72 @@
                             </div>
                             <!--end module-->
                             <div class="bar__module">
-                                <a class="btn btn--sm type--uppercase" href="#">
-                                    <span class="btn__text">
-                                        + Post a Talent
-                                    </span>
-                                </a>
-                                <a class="btn btn--sm btn--primary type--uppercase" href="#">
-                                    <span class="btn__text">
-                                        Sign Up/Login
-                                    </span>
-                                </a>
+                                <div class="modal-instance">
+                                    <a class="btn btn--sm type--uppercase modal-trigger" href="#">
+                                        <span class="btn__text">
+                                            + Post a Talent
+                                        </span>
+                                    </a>
+                                    <a class="btn btn--sm btn--primary type--uppercase modal-trigger" href="#">
+                                        <span class="btn__text">
+                                            Sign Up/Login
+                                        </span>
+                                    </a>
+                                    <div class="modal-container">
+                                        <div class="modal-content">
+                                            <section class="unpad ">
+                                                <div class="container">
+                                                    <div class="row">
+                                                        <div class="col-sm-6 col-md-offset-3 col-sm-offset-3 col-xs-12">
+                                                            <div class="boxed boxed--lg bg--white text-center feature">
+                                                                <div class="modal-close modal-close-cross"></div>
+                                                                <h3>Login to Your Account</h3>
+                                                                <a class="btn block btn--icon bg--facebook type--uppercase" href="#">
+                                                                    <span class="btn__text">
+                                                                        <i class="socicon-facebook"></i>
+                                                                        Login with Facebook
+                                                                    </span>
+                                                                </a>
+                                                                <a class="btn block btn--icon bg--twitter type--uppercase" href="#">
+                                                                    <span class="btn__text">
+                                                                        <i class="socicon-twitter"></i>
+                                                                        Login with Twitter
+                                                                    </span>
+                                                                </a>
+                                                                <hr data-title="OR">
+                                                                <div class="feature__body">
+                                                                    <form>
+                                                                        <div class="row">
+                                                                            <div class="col-sm-12">
+                                                                                <input type="text" placeholder="Username" />
+                                                                            </div>
+                                                                            <div class="col-sm-12">
+                                                                                <input type="password" placeholder="Password" />
+                                                                            </div>
+                                                                            <div class="col-sm-12">
+                                                                                <button class="btn btn--primary type--uppercase" type="submit">Login</button>
+                                                                            </div>
+                                                                        </div>
+                                                                        <!--end of row-->
+                                                                    </form>
+                                                                    <span class="type--fine-print block">Dont have an account yet?
+                                                                        <a href="#">Create account</a>
+                                                                    </span>
+                                                                    <span class="type--fine-print block">Forgot your username or password?
+                                                                        <a href="#">Recover account</a>
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!--end of row-->
+                                                </div>
+                                                <!--end of container-->
+                                            </section>
+                                        </div>
+                                    </div>
+                                </div>
+                                
                             </div>
                             <!--end module-->
                         </div>
@@ -298,66 +355,66 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-3 feature feature-1">
-                            <a href="#" class="border-round block" style="height">
+                            <a href="talent.html" class="border-round block" style="height">
                                 <img alt="Image" src="asset/brandal.jpg" />
                             </a>
                             <div class="feature__body boxed boxed--border">
                                 <h5 style="margin-bottom:0px;">
-                                    <a href="#" class="color--dark talent--name">The Brandals</a>
+                                    <a href="talent.html" class="color--dark talent--name">The Brandals</a>
                                 </h5>
-                                <a href="#" style="font-weight:200;font-size:12px">Band</a>                                   
+                                <a href="category.html" style="font-weight:200;font-size:12px">Band</a>                                   
                                 <p>From &bull; <strong>Rp 15,000,000</strong> /day</p>                
                             </div>
                         </div>
                         <!--end feature-->
                         <div class="col-sm-3 feature feature-1">
-                            <a href="#" class="border-round block" style="height">
+                            <a href="talent.html" class="border-round block" style="height">
                                 <img alt="Image" src="asset/rani.jpg" />
                             </a>
                             <div class="feature__body boxed boxed--border">
                                 <h5 style="margin-bottom:0px;">
-                                    <a href="#" class="color--dark talent--name">Rani Sutari</a>
+                                    <a href="talent.html" class="color--dark talent--name">Rani Sutari</a>
                                 </h5>
-                                <a href="#" style="font-weight:200;font-size:12px">MC</a>                                   
+                                <a href="category.html" style="font-weight:200;font-size:12px">MC</a>                                   
                                 <p>From &bull; <strong>Rp 25,000,000</strong> /day</p>                                       
                             </div>
                         </div>
                         <!--end feature-->
                         <div class="col-sm-3 feature feature-1">
-                            <a href="#" class="border-round block" style="height">
+                            <a href="talent.html" class="border-round block" style="height">
                                 <img alt="Image" src="asset/aydra.jpg" />
                             </a>
                             <div class="feature__body boxed boxed--border">
                                 <h5 style="margin-bottom:0px;">
-                                    <a href="#" class="color--dark talent--name">Aydra</a>
+                                    <a href="talent.html" class="color--dark talent--name">Aydra</a>
                                 </h5>
-                                <a href="#" style="font-weight:200;font-size:12px">DJ</a>                                   
+                                <a href="category.html" style="font-weight:200;font-size:12px">DJ</a>                                   
                                 <p>From &bull; <strong>Rp 15,000,000</strong> /day</p>                                       
                             </div>
                         </div>
                         <!--end feature-->
                         <div class="col-sm-3 feature feature-1">
-                            <a href="#" class="border-round block" style="height">
+                            <a href="talent.html" class="border-round block" style="height">
                                 <img alt="Image" src="asset/whiteshoes.jpg" />
                             </a>
                             <div class="feature__body boxed boxed--border">
                                 <h5 style="margin-bottom:0px;">
-                                    <a href="#" class="color--dark talent--name">White Shoes & The Couples Company White Shoes & The Couples Company</a>
+                                    <a href="talent.html" class="color--dark talent--name">White Shoes & The Couples Company White Shoes & The Couples Company</a>
                                 </h5>
-                                <a href="#" style="font-weight:200;font-size:12px">Band</a>
+                                <a href="category.html" style="font-weight:200;font-size:12px">Band</a>
                                 <p>From &bull; <strong>Rp 65,000,000</strong> /day</p>                                       
                             </div>
                         </div>
                         <!--end feature-->
                         <div class="col-sm-3 feature feature-1">
-                            <a href="#" class="border-round block" style="height">
+                            <a href="talent.html" class="border-round block" style="height">
                                 <img alt="Image" src="asset/batavia.jpg" />
                             </a>
                             <div class="feature__body boxed boxed--border">
                                 <h5 style="margin-bottom:0px;">
-                                    <a href="#" class="color--dark talent--name">Batavia Dance</a>
+                                    <a href="talent.html" class="color--dark talent--name">Batavia Dance</a>
                                 </h5>     
-                                <a href="#" style="font-weight:200;font-size:12px">Dancer</a>                              
+                                <a href="category.html" style="font-weight:200;font-size:12px">Dancer</a>                              
                                 <p>From &bull; <strong>Rp 15,000,000</strong> /day</p>                                       
                             </div>
                         </div>
@@ -366,13 +423,15 @@
                     <div class="pagination">
                         <a class="pagination__prev" href="#" title="Previous Page">&laquo;</a>
                         <ol>
-                            <li>
-                                <a href="#">1</a>
+                            <li class="pagination__current">
+                                1
                             </li>
                             <li>
                                 <a href="#">2</a>
                             </li>
-                            <li class="pagination__current">3</li>
+                            <li>
+                                <a href="#">3</a>
+                            </li>
                             <li>
                                 <a href="#">4</a>
                             </li>

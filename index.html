@@ -2,7 +2,8 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title></title>
+        <title>Kliktalent - Talent Marketplace</title>
+        <link rel="icon" type="image/ico" href="favicon.ico">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
         <link href="css/stack-interface.css" rel="stylesheet" type="text/css" media="all">
@@ -10,12 +11,12 @@
         <link href="css/iconsmind.css" rel="stylesheet" type="text/css" media="all" />
         <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
         <link href="css/flickity.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/lightbox.min.css" rel="stylesheet" type="text/css" >
         <link href="css/jquery.steps.css" rel="stylesheet" type="text/css" media="all" />
         <link href="css/theme.css" rel="stylesheet" type="text/css" media="all" />
         <link href="css/custom.css" rel="stylesheet" type="text/css" media="all" />
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,400i,500,600,700" rel="stylesheet">
-
     </head>
     <body data-smooth-scroll-offset="77">
         <div class="nav-container ">
@@ -76,7 +77,6 @@
                                                                         </a>
                                                                     </div>
                                                                 </div>
-                                                                <!--end of row-->
                                                             </div>
                                                         </div>
                                                         <div class="col-md-3 col-md-offset-6 col-sm-4">
@@ -85,47 +85,47 @@
                                                                     <span class="color--dark"><strong>Explore by Category</strong></span>
                                                                 </li>
                                                                 <li>
-                                                                    <a href="elements-accordions.html">
+                                                                    <a href="category.html">
                                                                         Band
                                                                     </a>
                                                                 </li>
                                                                 <li>
-                                                                    <a href="elements-alerts.html">
+                                                                    <a href="category.html">
                                                                         DJ
                                                                     </a>
                                                                 </li>
                                                                 <li>
-                                                                    <a href="elements-boxes.html">
+                                                                    <a href="category.html">
                                                                         MC
                                                                     </a>
                                                                 </li>
                                                                 <li>
-                                                                    <a href="elements-buttons.html">
+                                                                    <a href="category.html">
                                                                         Stand Up Comedy
                                                                     </a>
                                                                 </li>
                                                                 <li>
-                                                                    <a href="elements-colors.html">
+                                                                    <a href="ecategory.html">
                                                                         Singer
                                                                     </a>
                                                                 </li>
                                                                 <li>
-                                                                    <a href="elements-countdown.html">
+                                                                    <a href="category.html">
                                                                         Musician
                                                                     </a>
                                                                 </li>
                                                                 <li>
-                                                                    <a href="elements-dropdowns.html">
+                                                                    <a href="category.html">
                                                                         Magician
                                                                     </a>
                                                                 </li>
                                                                 <li>
-                                                                    <a href="elements-form-elements.html">
+                                                                    <a href="category.html">
                                                                         Dancer
                                                                     </a>
                                                                 </li>
                                                                 <li>
-                                                                    <a href="elements-gradient-backgrounds.html">
+                                                                    <a href="category.html">
                                                                         Model
                                                                     </a>
                                                                 </li>
@@ -137,47 +137,47 @@
                                                                     <span class="color--dark"><strong>Explore by Event</strong></span>
                                                                 </li>
                                                                 <li>
-                                                                    <a href="elements-lightbox.html">
+                                                                    <a href="category.html">
                                                                         Corporate
                                                                     </a>
                                                                 </li>
                                                                 <li>
-                                                                    <a href="elements-maps.html">
+                                                                    <a href="category.html">
                                                                         Private Party
                                                                     </a>
                                                                 </li>
                                                                 <li>
-                                                                    <a href="elements-masonry.html">
+                                                                    <a href="category.html">
                                                                         Festival
                                                                     </a>
                                                                 </li>
                                                                 <li>
-                                                                    <a href="elements-modals.html">
+                                                                    <a href="category.html">
                                                                         Campus
                                                                     </a>
                                                                 </li>
                                                                 <li>
-                                                                    <a href="elements-navigation.html">
+                                                                    <a href="category.html">
                                                                         School
                                                                     </a>
                                                                 </li>
                                                                 <li>
-                                                                    <a href="elements-navigation-inpage.html">
+                                                                    <a href="category.html">
                                                                         Social
                                                                     </a>
                                                                 </li>
                                                                 <li>
-                                                                    <a href="elements-navigation-sidebar.html">
+                                                                    <a href="category.html">
                                                                         Weddings
                                                                     </a>
                                                                 </li>
                                                                 <li>
-                                                                    <a href="elements-notifications.html">
+                                                                    <a href="category.html">
                                                                         Cafe/Restaurant/Pub
                                                                     </a>
                                                                 </li>
                                                                 <li>
-                                                                    <a href="elements-parallax.html">
+                                                                    <a href="category.html">
                                                                         Club
                                                                     </a>
                                                                 </li>
@@ -194,16 +194,72 @@
                             </div>
                             <!--end module-->
                             <div class="bar__module">
-                                <a class="btn btn--sm type--uppercase" href="#">
-                                    <span class="btn__text">
-                                        + Post a Talent
-                                    </span>
-                                </a>
-                                <a class="btn btn--sm btn--primary type--uppercase" href="#">
-                                    <span class="btn__text">
-                                        Sign Up/Login
-                                    </span>
-                                </a>
+                                <div class="modal-instance">
+                                    <a class="btn btn--sm type--uppercase modal-trigger" href="#">
+                                        <span class="btn__text">
+                                            + Post a Talent
+                                        </span>
+                                    </a>
+                                    <a class="btn btn--sm btn--primary type--uppercase modal-trigger" href="#">
+                                        <span class="btn__text">
+                                            Sign Up/Login
+                                        </span>
+                                    </a>
+                                    <div class="modal-container">
+                                        <div class="modal-content">
+                                            <section class="unpad ">
+                                                <div class="container">
+                                                    <div class="row">
+                                                        <div class="col-sm-6 col-md-offset-3 col-sm-offset-3 col-xs-12">
+                                                            <div class="boxed boxed--lg bg--white text-center feature">
+                                                                <div class="modal-close modal-close-cross"></div>
+                                                                <h3>Login to Your Account</h3>
+                                                                <a class="btn block btn--icon bg--facebook type--uppercase" href="#">
+                                                                    <span class="btn__text">
+                                                                        <i class="socicon-facebook"></i>
+                                                                        Login with Facebook
+                                                                    </span>
+                                                                </a>
+                                                                <a class="btn block btn--icon bg--twitter type--uppercase" href="#">
+                                                                    <span class="btn__text">
+                                                                        <i class="socicon-twitter"></i>
+                                                                        Login with Twitter
+                                                                    </span>
+                                                                </a>
+                                                                <hr data-title="OR">
+                                                                <div class="feature__body">
+                                                                    <form>
+                                                                        <div class="row">
+                                                                            <div class="col-sm-12">
+                                                                                <input type="text" placeholder="Username" />
+                                                                            </div>
+                                                                            <div class="col-sm-12">
+                                                                                <input type="password" placeholder="Password" />
+                                                                            </div>
+                                                                            <div class="col-sm-12">
+                                                                                <button class="btn btn--primary type--uppercase" type="submit">Login</button>
+                                                                            </div>
+                                                                        </div>
+                                                                        <!--end of row-->
+                                                                    </form>
+                                                                    <span class="type--fine-print block">Dont have an account yet?
+                                                                        <a href="#">Create account</a>
+                                                                    </span>
+                                                                    <span class="type--fine-print block">Forgot your username or password?
+                                                                        <a href="#">Recover account</a>
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!--end of row-->
+                                                </div>
+                                                <!--end of container-->
+                                            </section>
+                                        </div>
+                                    </div>
+                                </div>
+                                
                             </div>
                             <!--end module-->
                         </div>
@@ -224,7 +280,7 @@
                             <div class="typed-headline">
                                 <span class="h1 inline-block">Discover best</span>
                                 <span class="h1 inline-block typed-text typed-text--cursor color--primary" data-typed-strings="DJ,Band,MC,Singer,Saxophonist,Pianist,Dancer,Magician,Performer,"></span>
-                                <br><span class="h1 inline-block">for your show</span>
+                                <span class="h1 inline-block">for your show</span>
                             </div>
                             <div class="boxed boxed--lg bg--white text-left">
                                 <form class="form--horizontal">
@@ -242,7 +298,7 @@
                     <div class="row">
                         <div class="col-sm-12">
                             <div class="heading-block">
-                                <h3>Trending Stars <span><a href="#" class="pull-right" style="font-size:13px;font-weight:bold">View All</a></span></h3>
+                                <h3>Trending Stars <span><a href="category.html" class="pull-right" style="font-size:13px;font-weight:bold">View All</a></span></h3>
                             </div>
                         </div>
                     </div>
@@ -251,14 +307,14 @@
                             <ul class="slides">
                                 <li class="col-sm-3 col-xs-12">
                                     <div class="feature feature-1">
-                                        <a href="#" class="border-round block" style="height">
+                                        <a href="talent.html" class="border-round block" style="height">
                                             <img alt="Image" src="asset/brandal.jpg" />
                                         </a>
                                         <div class="feature__body boxed boxed--border">
                                             <h5 style="margin-bottom:0px;">
-                                                <a href="#" class="color--dark talent--name">The Brandals</a>
+                                                <a href="talent.html" class="color--dark talent--name">The Brandals</a>
                                             </h5>
-                                            <a href="#" style="font-weight:200;font-size:14px">Band</a>                        
+                                            <a href="category.html" style="font-weight:200;font-size:14px">Band</a>                        
                                             <p>From &bull; <strong>Rp 15,000,000</strong> /day</p>                
                                         </div>
                                     </div>
@@ -266,14 +322,14 @@
                                 </li>
                                 <li class="col-sm-3 col-xs-12">
                                     <div class="feature feature-1">
-                                        <a href="#" class="border-round block" style="height">
+                                        <a href="talent.html" class="border-round block" style="height">
                                             <img alt="Image" src="asset/rani.jpg" />
                                         </a>
                                         <div class="feature__body boxed boxed--border">
                                             <h5 style="margin-bottom:0px;">
-                                                <a href="#" class="color--dark talent--name">Rani Sutari</a>
+                                                <a href="talent.html" class="color--dark talent--name">Rani Sutari</a>
                                             </h5>
-                                            <a href="#" style="font-weight:200;font-size:14px">MC</a>                   
+                                            <a href="category.html" style="font-weight:200;font-size:14px">MC</a>                   
                                             <p>From &bull; <strong>Rp 25,000,000</strong> /day</p>                                       
                                         </div>
                                     </div>
@@ -281,14 +337,14 @@
                                 </li>
                                 <li class="col-sm-3 col-xs-12">
                                     <div class="feature feature-1">
-                                        <a href="#" class="border-round block" style="height">
+                                        <a href="talent.html" class="border-round block" style="height">
                                             <img alt="Image" src="asset/aydra.jpg" />
                                         </a>
                                         <div class="feature__body boxed boxed--border">
                                             <h5 style="margin-bottom:0px;">
-                                                <a href="#" class="color--dark talent--name">Aydra</a>
+                                                <a href="talent.html" class="color--dark talent--name">Aydra</a>
                                             </h5>
-                                            <a href="#" style="font-weight:200;font-size:14px">DJ</a>                              
+                                            <a href="category.html" style="font-weight:200;font-size:14px">DJ</a>                              
                                             <p>From &bull; <strong>Rp 15,000,000</strong> /day</p>                                       
                                         </div>
                                     </div>
@@ -296,14 +352,14 @@
                                 </li>
                                 <li class="col-sm-3 col-xs-12">
                                     <div class="feature feature-1">
-                                        <a href="#" class="border-round block" style="height">
+                                        <a href="talent.html" class="border-round block" style="height">
                                             <img alt="Image" src="asset/whiteshoes.jpg" />
                                         </a>
                                         <div class="feature__body boxed boxed--border">
                                             <h5 style="margin-bottom:0px;">
-                                                <a href="#" class="color--dark talent--name">White Shoes & The Couples Company</a>
+                                                <a href="talent.html" class="color--dark talent--name">White Shoes & The Couples Company</a>
                                             </h5>
-                                            <a href="#" style="font-weight:200;font-size:14px">Band</a>
+                                            <a href="category.html" style="font-weight:200;font-size:14px">Band</a>
                                             <p>From &bull; <strong>Rp 65,000,000</strong> /day</p>                                       
                                         </div>
                                     </div>
@@ -311,14 +367,14 @@
                                 </li>
                                 <li class="col-sm-3 col-xs-12">
                                     <div class="feature feature-1">
-                                        <a href="#" class="border-round block" style="height">
+                                        <a href="talent.html" class="border-round block" style="height">
                                             <img alt="Image" src="asset/batavia.jpg" />
                                         </a>
                                         <div class="feature__body boxed boxed--border">
                                             <h5 style="margin-bottom:0px;">
-                                                <a href="#" class="color--dark talent--name">Batavia Dance</a>
+                                                <a href="talent.html" class="color--dark talent--name">Batavia Dance</a>
                                             </h5>
-                                            <a href="#" style="font-weight:200;font-size:14px">Dancer</a>
+                                            <a href="category.html" style="font-weight:200;font-size:14px">Dancer</a>
                                             <p>From &bull; <strong>Rp 15,000,000</strong> /day</p>                                       
                                         </div>
                                     </div>
@@ -345,7 +401,7 @@
                     </div>
                     <div class="row">
                         <div class="col-sm-3 col-xs-6">
-                            <a href="#" class="block">
+                            <a href="category.html" class="block">
                                 <div class="feature feature-7 boxed text-center imagebg" data-overlay="5">
                                     <div class="background-image-holder"> <img alt="background" src="asset/category_band.jpeg"> </div>
                                     <h4 class="pos-vertical-center">Band</h4>
@@ -353,7 +409,7 @@
                             </a>
                         </div>
                         <div class="col-sm-3 col-xs-6">
-                            <a href="#" class="block">
+                            <a href="category.html" class="block">
                                 <div class="feature feature-7 boxed text-center imagebg" data-overlay="5">
                                     <div class="background-image-holder"> <img alt="background" src="asset/category_dj.jpeg"> </div>
                                     <h4 class="pos-vertical-center">DJ</h4>
@@ -361,7 +417,7 @@
                             </a>
                         </div>
                         <div class="col-sm-3 col-xs-6">
-                            <a href="#" class="block">
+                            <a href="category.html" class="block">
                                 <div class="feature feature-7 boxed text-center imagebg" data-overlay="5">
                                     <div class="background-image-holder"> <img alt="background" src="asset/category_mc.jpeg"> </div>
                                     <h4 class="pos-vertical-center">MC</h4>
@@ -369,7 +425,7 @@
                             </a>
                         </div>
                         <div class="col-sm-3 col-xs-6">
-                            <a href="#" class="block">
+                            <a href="category.html" class="block">
                                 <div class="feature feature-7 boxed text-center imagebg" data-overlay="5">
                                     <div class="background-image-holder"> <img alt="background" src="asset/category_musician.jpeg"> </div>
                                     <h4 class="pos-vertical-center">Musician</h4>
@@ -377,7 +433,7 @@
                             </a>
                         </div>
                         <div class="col-sm-3 col-xs-6">
-                            <a href="#" class="block">
+                            <a href="category.html" class="block">
                                 <div class="feature feature-7 boxed text-center imagebg" data-overlay="5">
                                     <div class="background-image-holder"> <img alt="background" src="asset/category_comedy.jpeg"> </div>
                                     <h4 class="pos-vertical-center">Stand Up Comedy</h4>
@@ -385,7 +441,7 @@
                             </a>
                         </div>
                         <div class="col-sm-3 col-xs-6">
-                            <a href="#" class="block">
+                            <a href="category.html" class="block">
                                 <div class="feature feature-7 boxed text-center imagebg" data-overlay="5">
                                     <div class="background-image-holder"> <img alt="background" src="asset/category_dancer.jpeg"> </div>
                                     <h4 class="pos-vertical-center">Dancer</h4>
@@ -393,7 +449,7 @@
                             </a>
                         </div>
                         <div class="col-sm-3 col-xs-6">
-                            <a href="#" class="block">
+                            <a href="category.html" class="block">
                                 <div class="feature feature-7 boxed text-center imagebg" data-overlay="5">
                                     <div class="background-image-holder"> <img alt="background" src="asset/category_attraction.jpeg"> </div>
                                     <h4 class="pos-vertical-center">Attraction</h4>
@@ -401,7 +457,7 @@
                             </a>
                         </div>
                         <div class="col-sm-3 col-xs-6">
-                            <a href="#" class="block">
+                            <a href="category.html" class="block">
                                 <div class="feature feature-7 boxed text-center imagebg" data-overlay="5">
                                     <div class="background-image-holder"> <img alt="background" src="asset/category_photo.jpg"> </div>
                                     <h4 class="pos-vertical-center">Photo/Video</h4>
@@ -409,7 +465,7 @@
                             </a>
                         </div>
                     </div>
-                    <a href="#" class="type--fine-print pull-right">View All</a>
+                    <a href="category.html" class="type--fine-print pull-right">View All</a>
                 </div>
             </section>
 
@@ -424,7 +480,7 @@
                     </div>
                     <div class="row">
                         <div class="col-sm-4 col-xs-6">
-                            <a href="#" class="block">
+                            <a href="category.html" class="block">
                                 <div class="feature feature-7 boxed text-center imagebg" data-overlay="5">
                                     <div class="background-image-holder"> <img alt="background" src="asset/event_festival.jpg"> </div>
                                     <h4 class="pos-vertical-center">Festival</h4>
@@ -432,7 +488,7 @@
                             </a>
                         </div>
                         <div class="col-sm-4 col-xs-6">
-                            <a href="#" class="block">
+                            <a href="category.html" class="block">
                                 <div class="feature feature-7 boxed text-center imagebg" data-overlay="5">
                                     <div class="background-image-holder"> <img alt="background" src="asset/event_cafe.jpeg"> </div>
                                     <h4 class="pos-vertical-center">Cafe/Restaurant/Pub</h4>
@@ -440,7 +496,7 @@
                             </a>
                         </div>
                         <div class="col-sm-4 col-xs-6">
-                            <a href="#" class="block">
+                            <a href="category.html" class="block">
                                 <div class="feature feature-7 boxed text-center imagebg" data-overlay="5">
                                     <div class="background-image-holder"> <img alt="background" src="asset/event_wedding.jpeg"> </div>
                                     <h4 class="pos-vertical-center">Wedding</h4>
@@ -448,7 +504,7 @@
                             </a>
                         </div>
                         <div class="col-sm-4 col-xs-6">
-                            <a href="#" class="block">
+                            <a href="category.html" class="block">
                                 <div class="feature feature-7 boxed text-center imagebg" data-overlay="5">
                                     <div class="background-image-holder"> <img alt="background" src="asset/event_private.jpeg"> </div>
                                     <h4 class="pos-vertical-center">Private Party</h4>
@@ -456,7 +512,7 @@
                             </a>
                         </div>
                         <div class="col-sm-4 col-xs-6">
-                            <a href="#" class="block">
+                            <a href="category.html" class="block">
                                 <div class="feature feature-7 boxed text-center imagebg" data-overlay="5">
                                     <div class="background-image-holder"> <img alt="background" src="asset/event_corporate.jpeg"> </div>
                                     <h4 class="pos-vertical-center">Corporate</h4>
@@ -464,7 +520,7 @@
                             </a>
                         </div>
                         <div class="col-sm-4 col-xs-6">
-                            <a href="#" class="block">
+                            <a href="category.html" class="block">
                                 <div class="feature feature-7 boxed text-center imagebg" data-overlay="5">
                                     <div class="background-image-holder"> <img alt="background" src="asset/event_social.jpeg"> </div>
                                     <h4 class="pos-vertical-center">Social</h4>
@@ -472,7 +528,7 @@
                             </a>
                         </div>
                     </div>
-                    <a href="#" class="type--fine-print pull-right">View All</a>
+                    <a href="category.html" class="type--fine-print pull-right">View All</a>
                 </div>
             </section>
 
@@ -533,7 +589,7 @@
                         <div class="col-sm-8 col-md-6">
                             <div class="cta">
                                 <h2>Kickstart your career and earn more gigs with us</h2>
-                                <a class="btn btn--primary type--uppercase" href="#purchase-template"> 
+                                <a class="btn btn--primary type--uppercase" href="#"> 
                                     <span class="btn__text">Join Now</span>
                                 </a> 
                                 <p class="type--fine-print">or check out <a href="index.html">Talent's benefit</a></p>
