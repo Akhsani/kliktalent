@@ -16,6 +16,8 @@ h1:not(:last-child),
 
 .picker {
 	max-width: unset;
+	float: right;
+	position: relative;
 }
 
 .image--ava {
@@ -23,4 +25,19 @@ h1:not(:last-child),
 	width: 60px;
 	border-radius: 50%;
 	object-fit: cover;
+}
+
+.picker__day--disabled, .picker__day--disabled:hover {
+    border-color: whitesmoke;
+    color: #ddd;
+    cursor: default;
+}
+
+.tabs {
+	border: unset;
+	margin-bottom: 0px;
+}
+
+.tabs li:not(:last-child) {
+    border-right: unset;
 }
