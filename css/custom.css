@@ -14,7 +14,25 @@ h1:not(:last-child),
     object-fit: cover;
 }
 
-.picker {
+.talent--name {
+	white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+}
+
+@media all and (max-width: 767px) {
+  .feature p {
+    min-height: auto;
+    margin-left: 0px;
+  }
+}
+
+.feature:not(.boxed) {
+     margin-bottom: unset; 
+}
+
+.pricedate > .picker {
 	max-width: unset;
 	float: right;
 	position: relative;
@@ -40,4 +58,7 @@ h1:not(:last-child),
 
 .tabs li:not(:last-child) {
     border-right: unset;
+}
+.notification.side-menu {
+    width: 33em;
 }

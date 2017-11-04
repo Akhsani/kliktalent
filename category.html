@@ -216,6 +216,7 @@
         </div>
 
         <div class="main-container">
+
             <section class="height-30 imagebg text-center" data-overlay="4">
                 <div class="background-image-holder">
                     <img alt="background" src="asset/cover.jpeg" />
@@ -231,12 +232,35 @@
                 <!--end of container-->
             </section>
 
-            <section class="space--sm">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-3">
+            <section class="space--xs">
 
-                        <form class="form--inline form-email attempted-submit" data-success="Thanks for your enquiry, we'll be in touch shortly." data-error="Please fill in all fields correctly." novalidate="true">
+                <nav class="bar bar-toggle space--xs" data-fixed-at="200">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-1 col-sm-2 col-xs-3">
+                                <div class="bar__module">
+                                    <h3>Category</h3>
+                                </div>
+                                <!--end module-->
+                            </div>
+                            <div class="col-md-11 col-sm-10 col-xs-9">
+                                <div class="bar__module">
+                                    <a class="btn btn--small pull-right" href="#" data-notification-link="sidebar-menu">
+                                        Filter
+                                    </a>
+                                </div>
+                                <!--end module-->
+                            </div>
+                            <!--end columns-->
+                        </div>
+                        <!--end of row-->
+                    </div>
+                    <!--end of container-->
+                </nav>
+                <div class="notification pos-right pos-top side-menu bg--white" data-notification-link="sidebar-menu" data-animation="from-right">
+                    <div class="side-menu__module" style="overflow:scroll;padding-top:2.5em;height:100%">
+                        <div>
+                            <form>
                             <span class="p">Sort by</span>
                             <div class="input-select">
                                 <select class="validate-required">
@@ -256,83 +280,89 @@
                                     <option value="10k-20k">Corporate</option>
                                 </select>
                             </div>
-                            <span class="p">Availability</span>
-                            <input type="text" name="Date" placeholder="Date / Timeframe" class="datepicker">
-                            <div style="margin-top:1em;">
-                                <button type="submit" class="btn btn--primary type--uppercase" data-text="Send Enquiry">Filter</button>
-                            </div>
+                            <span>Availability</span>
+                               <div>
+                                    <input type="text" name="Date" placeholder="From" class="datepicker" id="input_from">
+                                </div>
+                                <div style="padding-top:13px">
+                                    <input type="text" name="Date" placeholder="To" class="datepicker" id="input_to">
+                                </div> 
+                            
+                            <button type="submit" class="btn btn--primary type--uppercase" style="margin-top:30px;" data-text="Send Enquiry">Filter</button>
                         </form>
-                            
                         </div>
-                        <div class="col-sm-9">
-                            <div class="col-sm-4">
-                                <div class="feature feature-1">
-                                    <a href="#" class="border-round block" style="height">
-                                        <img alt="Image" src="asset/rani.jpg" />
-                                    </a>
-                                    <div class="feature__body boxed boxed--border">
-                                        <h4 style="margin-bottom:0px;">
-                                            <a href="#" class="color--dark">Rani Sutari</a> &mdash; 
-                                            <a href="#" style="font-weight:200">MC</a>
-                                        </h4>                                   
-                                        <p>
-                                            <i class="material-icons color--primary" style="margin-right:0px">favorite</i>
-                                            <i class="material-icons color--primary">favorite</i>
-                                            <i class="material-icons color--primary">favorite</i>
-                                            <i class="material-icons color--primary">favorite</i>
-                                            <i class="material-icons color--primary">favorite</i>
-                                        </p>
-                                        <p style="text-align:right">From &bull; <strong>Rp 25,000,000</strong> /day</p>                                       
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-4">
-                                <div class="feature feature-1">
-                                    <a href="#" class="border-round block" style="height">
-                                        <img alt="Image" src="asset/rani.jpg" />
-                                    </a>
-                                    <div class="feature__body boxed boxed--border">
-                                        <h4 style="margin-bottom:0px;">
-                                            <a href="#" class="color--dark">Rani Sutari</a> &mdash; 
-                                            <a href="#" style="font-weight:200">MC</a>
-                                        </h4>                                   
-                                        <p>
-                                            <i class="material-icons color--primary" style="margin-right:0px">favorite</i>
-                                            <i class="material-icons color--primary">favorite</i>
-                                            <i class="material-icons color--primary">favorite</i>
-                                            <i class="material-icons color--primary">favorite</i>
-                                            <i class="material-icons color--primary">favorite</i>
-                                        </p>
-                                        <p style="text-align:right">From &bull; <strong>Rp 25,000,000</strong> /day</p>                                       
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-4">
-                                <div class="feature feature-1">
-                                    <a href="#" class="border-round block" style="height">
-                                        <img alt="Image" src="asset/rani.jpg" />
-                                    </a>
-                                    <div class="feature__body boxed boxed--border">
-                                        <h4 style="margin-bottom:0px;">
-                                            <a href="#" class="color--dark">Rani Sutari</a> &mdash; 
-                                            <a href="#" style="font-weight:200">MC</a>
-                                        </h4>                                   
-                                        <p>
-                                            <i class="material-icons color--primary" style="margin-right:0px">favorite</i>
-                                            <i class="material-icons color--primary">favorite</i>
-                                            <i class="material-icons color--primary">favorite</i>
-                                            <i class="material-icons color--primary">favorite</i>
-                                            <i class="material-icons color--primary">favorite</i>
-                                        </p>
-                                        <p style="text-align:right">From &bull; <strong>Rp 25,000,000</strong> /day</p>                                       
-                                    </div>
-                                </div>
-                            </div>
-                            
-                        </div>
-                        <!--end item-->
+                        
                     </div>
-                    <!--end row-->
+                </div>
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-3 feature feature-1">
+                            <a href="#" class="border-round block" style="height">
+                                <img alt="Image" src="asset/brandal.jpg" />
+                            </a>
+                            <div class="feature__body boxed boxed--border">
+                                <h5 style="margin-bottom:0px;">
+                                    <a href="#" class="color--dark talent--name">The Brandals</a>
+                                </h5>
+                                <a href="#" style="font-weight:200;font-size:12px">Band</a>                                   
+                                <p>From &bull; <strong>Rp 15,000,000</strong> /day</p>                
+                            </div>
+                        </div>
+                        <!--end feature-->
+                        <div class="col-sm-3 feature feature-1">
+                            <a href="#" class="border-round block" style="height">
+                                <img alt="Image" src="asset/rani.jpg" />
+                            </a>
+                            <div class="feature__body boxed boxed--border">
+                                <h5 style="margin-bottom:0px;">
+                                    <a href="#" class="color--dark talent--name">Rani Sutari</a>
+                                </h5>
+                                <a href="#" style="font-weight:200;font-size:12px">MC</a>                                   
+                                <p>From &bull; <strong>Rp 25,000,000</strong> /day</p>                                       
+                            </div>
+                        </div>
+                        <!--end feature-->
+                        <div class="col-sm-3 feature feature-1">
+                            <a href="#" class="border-round block" style="height">
+                                <img alt="Image" src="asset/aydra.jpg" />
+                            </a>
+                            <div class="feature__body boxed boxed--border">
+                                <h5 style="margin-bottom:0px;">
+                                    <a href="#" class="color--dark talent--name">Aydra</a>
+                                </h5>
+                                <a href="#" style="font-weight:200;font-size:12px">DJ</a>                                   
+                                <p>From &bull; <strong>Rp 15,000,000</strong> /day</p>                                       
+                            </div>
+                        </div>
+                        <!--end feature-->
+                        <div class="col-sm-3 feature feature-1">
+                            <a href="#" class="border-round block" style="height">
+                                <img alt="Image" src="asset/whiteshoes.jpg" />
+                            </a>
+                            <div class="feature__body boxed boxed--border">
+                                <h5 style="margin-bottom:0px;">
+                                    <a href="#" class="color--dark talent--name">White Shoes & The Couples Company White Shoes & The Couples Company</a>
+                                </h5>
+                                <a href="#" style="font-weight:200;font-size:12px">Band</a>
+                                <p>From &bull; <strong>Rp 65,000,000</strong> /day</p>                                       
+                            </div>
+                        </div>
+                        <!--end feature-->
+                        <div class="col-sm-3 feature feature-1">
+                            <a href="#" class="border-round block" style="height">
+                                <img alt="Image" src="asset/batavia.jpg" />
+                            </a>
+                            <div class="feature__body boxed boxed--border">
+                                <h5 style="margin-bottom:0px;">
+                                    <a href="#" class="color--dark talent--name">Batavia Dance</a>
+                                </h5>     
+                                <a href="#" style="font-weight:200;font-size:12px">Dancer</a>                              
+                                <p>From &bull; <strong>Rp 15,000,000</strong> /day</p>                                       
+                            </div>
+                        </div>
+                        <!--end feature-->
+                    </div>
                     <div class="pagination">
                         <a class="pagination__prev" href="#" title="Previous Page">&laquo;</a>
                         <ol>
@@ -349,6 +379,14 @@
                         </ol>
                         <a class="pagination__next" href="#" title="Next Page">&raquo;</a>
                     </div>
+                </div>
+            </section>
+
+            <section class="space--xs">
+                <div class="container">
+                    
+                    <!--end row-->
+                    
                 </div>
                 <!--end of container-->
             </section>
