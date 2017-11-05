@@ -45,6 +45,13 @@ h1:not(:last-child),
 	object-fit: cover;
 }
 
+img.image--ava--sm {
+  height: 48px;
+  width: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
 .picker__day--disabled, .picker__day--disabled:hover {
     border-color: whitesmoke;
     color: #ddd;
