@@ -46,8 +46,8 @@ h1:not(:last-child),
 }
 
 img.image--ava--sm {
-  height: 48px;
-  width: 48px;
+  height: 30px;
+  width: 30px;
   border-radius: 50%;
   object-fit: cover;
 }
