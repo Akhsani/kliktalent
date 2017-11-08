@@ -69,3 +69,24 @@ img.image--ava--sm {
 .notification.side-menu {
     width: 33em;
 }
+
+@media all and (max-width: 767px) {
+  .bar.bar--mobile-sticky[data-scroll-class*='fixed'].pos-fixed {
+    top: 0px;
+  }
+
+@media all and (max-width: 767px) {
+  .bar.bar--bottom.bar--mobile-sticky[data-scroll-class*='fixed'].pos-fixed {
+    top: unset;
+    bottom: 0px;
+  }
+}
+
+.section--menu > a:not(:last-child){
+  margin-right: 1.23809524em;
+}
+
+.section--menu > a:not(:hover){
+  color: #252525;
+  text-decoration: unset
+}
